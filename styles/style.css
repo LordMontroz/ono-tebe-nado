@@ -1,8 +1,8 @@
 .header {
   display: grid;
-  place-items: center;
+  align-items: center;
   max-width: 1440px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 148px 1fr;
   padding: 83px 43px 101px 57px;
 }
 
@@ -13,7 +13,7 @@
 .header__links-list {
   display: flex;
   gap: 32px;
-  list-style-image: url(../images/list_marker.svg);
+  list-style: circle;
 }
 
 .header__links-list-item {
@@ -30,18 +30,21 @@
   height: 105px;
 }
 
-.header__links {
+.address {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   list-style: none;
-  justify-self: end;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  max-width: 240px;
   font-size: 18px;
   line-height: 1.3;
   text-underline-offset: 4px;
 }
 
 .header__address {
-  font-style: normal;
+  justify-self: end;
 }
 
 .cover {
@@ -250,16 +253,6 @@
   max-width: 1440px;
   grid-template-columns: repeat(3, 1fr);
   padding: 180px 50px 90px 50px;
-}
-
-.footer__links {
-  display: flex;
-  flex-direction: column;
-  align-self: start;
-  list-style: none;
-  font-size: 18px;
-  line-height: 24.3px;
-  text-underline-offset: 4px;
 }
 
 .footer__menu-list {
