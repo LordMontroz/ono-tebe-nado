@@ -1,6 +1,7 @@
 .header {
   display: grid;
   align-items: center;
+  margin: 0 auto;
   max-width: 1440px;
   grid-template-columns: 1fr 148px 1fr;
   padding: 83px 43px 101px 57px;
@@ -49,6 +50,7 @@
 
 .cover {
   position: relative;
+  margin: 0 auto;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   max-width: 1440px;
@@ -126,6 +128,7 @@
 }
 
 .lots {
+  margin: 0 auto;
   max-width: 1440px;
   padding: 180px 50px 0 50px;
 }
@@ -209,6 +212,7 @@
 }
 
 .about {
+  margin: 0 auto;
   max-width: 1440px;
   min-height: 487px;
   padding: 181px 50px 0 50px;
@@ -249,6 +253,7 @@
 }
 
 .footer {
+  margin: 0 auto;
   display: grid;
   max-width: 1440px;
   grid-template-columns: repeat(3, 1fr);
