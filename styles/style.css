@@ -4,7 +4,7 @@
   margin: 0 auto;
   max-width: 1440px;
   grid-template-columns: 1fr 148px 1fr;
-  padding: 83px 43px 101px 57px;
+  padding: 84px 43px 101px 58px;
 }
 
 .header__menu {
@@ -113,7 +113,7 @@
   text-transform: uppercase;
   font-size: 22px;
   line-height: 1.27;
-  word-spacing: 17px;
+  word-spacing: 18px;
 }
 
 .bet-button {
@@ -214,7 +214,6 @@
 .about {
   margin: 0 auto;
   max-width: 1440px;
-  min-height: 487px;
   padding: 181px 50px 0 50px;
 }
 
