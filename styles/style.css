@@ -4,7 +4,7 @@
   margin: 0 auto;
   max-width: 1440px;
   grid-template-columns: 1fr 148px 1fr;
-  padding: 84px 43px 101px 58px;
+  padding: 90px 50px;
 }
 
 .header__menu {
