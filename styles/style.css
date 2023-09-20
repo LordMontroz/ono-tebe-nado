@@ -3,8 +3,8 @@
   align-items: center;
   margin: 0 auto;
   max-width: 1440px;
-  grid-template-columns: 1fr 148px 1fr;
-  padding: 90px 50px;
+  grid-template-columns: 1fr min-content 1fr;
+  padding: 90px 50px 101px;
 }
 
 .header__menu {
